@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Planetarydefence</title>
+		<script src="js/lib/three.js"></script>
+		
+		
+		<!-- Shaders -->
+		<script src="js/shaders/cloudFragmentShader.js""></script>
+		<script src="js/shaders/cloudVertexShader.js"></script>
+		
+		<script src="js/shaders/planetFragmentShader.js"></script>
+		<script src="js/shaders/planetVertexShader.js"></script>
+		
+		<script src="js/shaders/textureGeneratorVertexShader.js"></script>
+		<script src="js/shaders/textureGeneratorFragmentShader.js"></script>
+		
+		<script src="js/util.js"></script>
+		<script src="js/spheremap.js"></script>
+		<script src="js/planet.js"></script>
+		<script src="js/starbox.js"></script>
+		<script src="js/material.js"></script>
+		<script src="js/clouds.js"></script>
+		
+		
+		<script src="js/main.js"></script>
+		
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/*	Loader for the games background sound
+			 */
+			var snd = new Audio('sounds/techno18NoBeginning.ogg'); 
+			snd.volume = 0.425;
+	        //snd.play();
+	        
+			Game.main.main();
+		</script>
+	</body>
+</html>

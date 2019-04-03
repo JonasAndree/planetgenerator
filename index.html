@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Planetarydefence</title>
+		<link rel="stylesheet" type="text/css" href="css/planetarydefence.css"/>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		
+		<!-- Libs -->
+		<script src="js/lib/old/three.js"></script>
+		<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+		
+		<!-- JS files -->
+		<script src="js/util.js"></script>
+		<script src="js/spheremap.js"></script>
+		<script src="js/galaxymap.js"></script>
+			<!-- Objects -->
+			<script src="js/objects/planet.js"></script>
+			<script src="js/objects/asteroid.js"></script>
+			<script src="js/objects/galaxy.js"></script>
+			<!-- Generate -->
+			<script src="js/generate/textures.js"></script>
+			<script src="js/generate/stars.js"></script>
+			<script src="js/generate/galaxy.js"></script>
+			<script src="js/generate/planetCore.js"></script>
+			
+		<script src="js/starbox.js"></script>
+		<script src="js/material.js"></script>
+		<script src="js/clouds.js"></script>
+		
+		
+		<!-- Models -->
+			<script src="js/Models/mainmodel.js"></script>
+				
+		<!-- Shaders -->
+			<!-- Clouds -->
+			<script src="js/shaders/clouds/cloudVertexShader.js"></script>
+			<script src="js/shaders/clouds/cloudFragmentShader.js"></script>
+			<!-- Planet -->
+			<script src="js/shaders/atmo/planetFragmentShader.js"></script>
+			<script src="js/shaders/atmo/planetVertexShader.js"></script>
+			<script src="js/shaders/atmo/asteroidFragmentShader.js"></script>
+			<script src="js/shaders/atmo/asteroidVertexShader.js"></script>
+			<!-- Texture -->
+			<script src="js/shaders/texture/textureGeneratorVertexShader.js"></script>
+			<script src="js/shaders/texture/textureGeneratorFragmentShader.js"></script>
+			<script src="js/shaders/texture/textureGalaxyGeneratorVertexShader.js"></script>
+			<script src="js/shaders/texture/textureGalaxyGeneratorFragmentShader.js"></script>
+			<script src="js/shaders/texture/asteroidVertexShader.js"></script>
+			<script src="js/shaders/texture/asteroidFragmentShader.js"></script>
+		
+		<!-- Main JS file -->
+		<script src="js/main.js"></script>
+		
+		<!-- Textures -->
+		<script src="js/img/cloudTexture2.js"></script>
+		<script src="js/img/cloudTexture.js"></script>
+		<script src="js/img/starTexture.js"></script>
+		
+	</head>
+	<body>
+		<div id="canvas"></div>
+		<!-- <div id="navigation-bar-area">
+			<div id="right-navigation-bar"></div>
+			<div id="right-img-background"></div>
+			<div id="right-img-icon"></div>
+			
+			<div id="left-navigation-bar"></div>
+			<div id="left-img-background"></div>
+			<div id="left-img-icon"></div>
+		</div> -->
+		<!-- Start -->
+		<script type="text/javascript">
+			Game.main.main();
+		</script>
+		<!-- Views -->
+			<script src="js/Views/navigation.js"></script>
+		<!-- Sound -->	
+			<script src="js/sounds/background.js"></script>
+	</body>
+</html>

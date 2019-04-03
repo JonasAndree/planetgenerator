@@ -1,0 +1,71 @@
+div#navigation-bar-area {
+	position: fixed;
+	margin: 30px 0px 0px 0px;
+	width: 100%;
+	height: 40px;
+}
+
+div#right-navigation-bar {
+	position: absolute;
+	right: 30px;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+}
+
+div#right-img-background {
+	position: absolute;
+	display: inline-block;
+	background-size: 40px 40px;
+	border: 0;
+	right: 10px;
+	width: 40px;
+	height: 100%;
+	border-radius: 25px;
+	background: linear-gradient(to left, #ff0000 50%, rgba(0, 0, 0, 0) 50%);
+}
+
+div#right-img-icon {
+	position: absolute;
+	display: inline-block;
+	background-image: url("../img/usericon1.png");
+	background-size: 40px 40px;
+	border: 0;
+	right: 10px;
+	width: 40px;
+	height: 100%;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+div#left-navigation-bar {
+	position: absolute;
+	left: 30px;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+}
+
+div#left-img-background {
+	position: absolute;
+	display: inline-block;
+	background-size: 40px 40px;
+	border: 0;
+	left: 10px;
+	width: 40px;
+	height: 100%;
+	border-radius: 25px;
+}
+
+div#left-img-icon {
+	position: absolute;
+	display: inline-block;
+	background-image: url("../img/menuicon1.png");
+	background-size: 40px 40px;
+	border: 0;
+	left: 10px;
+	width: 40px;
+	height: 100%;
+	border-radius: 25px;
+	cursor: pointer;
+}
